@@ -1,0 +1,356 @@
+
+
+/*TOP-SITE*/
+
+h1{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  color: #0f2a3f;
+}
+
+a{
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.top-site{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    position: static;
+}
+
+.menu{
+  display: flex; 
+  /*word-spacing: 30px;*/
+}
+
+.top-menu{
+  padding: 0px 20px; 
+  word-spacing: 30px;
+}
+
+.consulta-menu{
+  justify-content: flex-end;
+}
+
+.hero {
+  background-image: url("../IMAGES/image1.jpg");
+  background-size: cover;       
+  background-position: center;   
+  background-repeat: no-repeat;  
+  height: 80vh;                  
+  width: 100%;                   
+  position: relative;            
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #0f2a3f;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.btn-hero {
+  background-color: #b0d5e8;
+  color: #0f2a3f;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+  background-color: #92c6de;
+}
+
+.btn-consulta {
+  background-color: #b0d5e8;
+  color: #0f2a3f;
+  padding: 12px 12px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-left: auto; 
+}
+
+.btn-consulta:hover {
+  background-color: #92c6de;
+}
+
+
+/*MID-SECTION*/
+
+h2{
+padding-top: 50px;
+padding-left: 100px;
+color: #0f2a3f;
+font-size: 30px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: italic;
+letter-spacing: 2px;
+}
+
+.campanha p{
+  width: 400px;
+  padding-left: 100px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #0f2a3f;
+}
+
+/*FORMS*/
+
+.forms-menu{
+  background-color: #FFFFFF;
+  color: #0f2a3f;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 400px;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.mid-section{
+  display: flex;
+}
+
+
+.btn-forms{
+  background-color: #b0d5e8;
+  color: #0f2a3f;
+  padding: 5px 50px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+input,
+textarea {
+  background-color: #0f2a3f;
+  margin-left: 300px;
+
+}
+
+input::placeholder {
+  color: #FFFFFF; 
+}
+
+textarea::placeholder {
+  color: #FFFFFF;
+}
+
+input{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+textarea{
+  width: 400px;
+  height: 200px;
+  margin-bottom: 20px;
+  
+}
+
+html, body {
+  overflow-x: hidden;}
+
+
+  /*EVALUATIONS*/
+
+h3, p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+  }
+
+h4{
+font-size: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.evaluations{
+width: 50%;
+display: flex;
+}
+
+.evaluations2{
+  display: flex;
+
+}
+
+.main-evaluations{
+  background-color: #0f2a3f;
+  height: 250px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 20px;
+  
+}
+
+
+.evaluations-text{
+  width: 60%;
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.image3{
+  width: 40%;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.evaluations-text2{
+  width: 60%;
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+
+.image2{
+  width: 40%;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+/*TIPS*/
+
+.tips-title, .tips-text1, .tips-text2{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-items: center;
+}
+
+.tips{
+  display: flex;
+}
+
+.tips-title{
+  font-size: 50px;
+  margin-left: 250px;
+  
+}
+
+.tips-text1, .tips-text2{
+  background-color: #0f2a3f;
+  color: #FFFFFF;
+  padding: 30px 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.tips-text1{
+  margin-bottom: 30px;
+}
+
+
+.tips1{
+  width: 50%;
+}
+
+.tips2{
+  width: 50%;
+  display: flex;
+}
+.image4{
+  margin: 30px;
+  margin-right: 30px;
+}
+
+/*FOOTER*/
+
+.footer{
+  background-color: #0f2a3f;
+  display: flex;
+}
+
+.follow, .Contacts{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 200px;
+  padding-bottom: 30px;
+}
+
+.follow{
+  align-items: center;
+}
+
+.Contacts{
+  align-items: center;
+
+}
+
+h6{
+  color: #92c6de;
+  font-size: 50px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.Contacts, .follow p{
+  color: #FFFFFF;
+  word-spacing: 2px;
+}
+
+.footer-right{
+  display: flex;
+}
+
+.footer-images{
+  margin-left: 50px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+
+
+
+
+
